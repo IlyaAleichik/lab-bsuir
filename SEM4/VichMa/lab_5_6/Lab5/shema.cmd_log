@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family xc9500 -verilog shema_drc.vf -w C:/Users/ilya/Desktop/lab6_test/Lab5/shema.sch 
+sch2hdl -intstyle ise -family xc9500 -verilog shema_drc.vf -w C:/Users/ilya/Desktop/lab6_test/Lab5/shema.sch 

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing version="7">
+    <attr value="xc9500xl" name="DeviceFamilyName">
+        <trait delete="all:0" />
+        <trait editname="all:0" />
+        <trait edittrait="all:0" />
+    </attr>
+    <netlist>
+        <blockdef name="add1">
+            <timestamp>2000-1-1T10:10:10</timestamp>
+            <line x2="320" y1="-256" y2="-256" x1="384" />
+            <line x2="64" y1="-192" y2="-192" x1="0" />
+            <line x2="64" y1="-320" y2="-320" x1="0" />
+            <line x2="192" y1="-64" y2="-112" x1="192" />
+            <line x2="192" y1="-64" y2="-64" x1="320" />
+            <line x2="320" y1="-64" y2="-64" x1="384" />
+            <line x2="64" y1="-448" y2="-448" x1="0" />
+            <line x2="64" y1="-448" y2="-448" x1="192" />
+            <line x2="192" y1="-400" y2="-448" x1="192" />
+            <line x2="64" y1="-368" y2="-432" x1="320" />
+            <line x2="320" y1="-144" y2="-368" x1="320" />
+            <line x2="320" y1="-80" y2="-144" x1="64" />
+            <line x2="64" y1="-240" y2="-80" x1="64" />
+            <line x2="64" y1="-256" y2="-240" x1="96" />
+            <line x2="96" y1="-272" y2="-256" x1="64" />
+            <line x2="64" y1="-432" y2="-272" x1="64" />
+        </blockdef>
+        <blockdef name="and2">
+            <timestamp>2000-1-1T10:10:10</timestamp>
+            <line x2="64" y1="-64" y2="-64" x1="0" />
+            <line x2="64" y1="-128" y2="-128" x1="0" />
+            <line x2="192" y1="-96" y2="-96" x1="256" />
+            <arc ex="144" ey="-144" sx="144" sy="-48" r="48" cx="144" cy="-96" />
+            <line x2="64" y1="-48" y2="-48" x1="144" />
+            <line x2="144" y1="-144" y2="-144" x1="64" />
+            <line x2="64" y1="-48" y2="-144" x1="64" />
+        </blockdef>
+        <blockdef name="fd">
+            <timestamp>2000-1-1T10:10:10</timestamp>
+            <line x2="80" y1="-112" y2="-128" x1="64" />
+            <line x2="64" y1="-128" y2="-144" x1="80" />
+            <line x2="320" y1="-256" y2="-256" x1="384" />
+            <line x2="64" y1="-256" y2="-256" x1="0" />
+            <line x2="64" y1="-128" y2="-128" x1="0" />
+            <rect width="256" x="64" y="-320" height="256" />
+        </blockdef>
+        <block symbolname="add1" name="XLXI_1">
+            <blockpin name="A0" />
+            <blockpin name="B0" />
+            <blockpin name="CI" />
+            <blockpin name="CO" />
+            <blockpin name="S0" />
+        </block>
+        <block symbolname="and2" name="XLXI_2">
+            <blockpin name="I0" />
+            <blockpin name="I1" />
+            <blockpin name="O" />
+        </block>
+        <block symbolname="and2" name="XLXI_3">
+            <blockpin name="I0" />
+            <blockpin name="I1" />
+            <blockpin name="O" />
+        </block>
+        <block symbolname="fd" name="XLXI_4">
+            <blockpin name="C" />
+            <blockpin name="D" />
+            <blockpin name="Q" />
+        </block>
+    </netlist>
+    <sheet sheetnum="1" width="7609" height="5382">
+        <attr value="CM" name="LengthUnitName" />
+        <attr value="4" name="GridsPerUnit" />
+        <instance x="736" y="3344" name="XLXI_1" orien="R0" />
+        <instance x="752" y="4176" name="XLXI_2" orien="R0" />
+        <instance x="736" y="4448" name="XLXI_3" orien="R0" />
+        <instance x="240" y="2784" name="XLXI_4" orien="R0" />
+    </sheet>
+</drawing>

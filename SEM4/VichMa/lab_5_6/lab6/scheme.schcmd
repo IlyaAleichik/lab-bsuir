@@ -1,0 +1,44 @@
+select figure at 862 4906 8 -branches -sn=1
+select figure at 448 5319 8 -branches -sn=1
+select figure at 1018 5191 8 -branches -sn=1
+select figure at 4285 5689 8 -branches -sn=1
+select all in -2147483648 -2147483648 2147483647 2147483647 -sn=1
+select all in -2147483648 -2147483648 2147483647 2147483647 -sn=1
+select all in -2147483648 -2147483648 2147483647 2147483647 -sn=1
+select all in -2147483648 -2147483648 2147483647 2147483647 -sn=1
+select figure at 11122 4264 8 -branches -sn=1
+select figure at 12590 4360 8 -branches -sn=1
+select figure at -436 85 8 -branches -sn=1
+select all in -436 85 12515 6752 -branches -enclosed -sn=1
+select figure at 2882 5263 8 -branches -sn=1
+select figure at 3318 6104 8 -branches -sn=1
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+select figure at 3626 5678 8 -branches -sn=1
+select figure at -829 13 8 -branches -sn=1
+select all in -829 13 11535 7158 -branches -enclosed -sn=1
+select figure at 7133 6214 8 -branches -sn=1
+select figure at 7133 6201 8 -branches -all -sn=1
+undo
+undo
+undo
+undo
+undo
+select figure at 472 6316 8 -branches -sn=1
+select all in 472 6265 600 6316 -branches -enclosed -sn=1
+undo
+undo
+select figure at 4249 6788 8 -branches -sn=1
+undo
